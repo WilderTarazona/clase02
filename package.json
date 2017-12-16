@@ -1,0 +1,25 @@
+{
+  "name": "clase02",
+  "version": "1.0.0",
+  "description": "Mi primero proyecto",
+  "main": "app1.js",
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "nodemon": "^1.13.3",
+    "supervisor": "^0.12.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WilderTarazona/clase02.git"
+  },
+  "author": "Wilder Tarazona",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WilderTarazona/clase02/issues"
+  },
+  "homepage": "https://github.com/WilderTarazona/clase02#readme"
+}
