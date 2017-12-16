@@ -6,7 +6,7 @@ http.createServer(function(req, res) {
 	res.writeHead(200);
 	res.write('Saludos a todos');
 	_.each(arr, function(val, i){
-		console.log(val, "texto extra");
+		console.log(val, "texto extra", i);
 	});
 	res.end();
 }).listen(puerto);
