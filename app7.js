@@ -7,7 +7,7 @@ http.createServer(function(req, res) {
 		res.writeHead(200, { "Content-Type": "application/json" });
 		res.write(JSON.stringify(
 			{ nombre: "Wilder", email: "wtarazonac@gmail.com" }
-		);
+		));
 		res.end();
 	});
 }).listen(puerto);
