@@ -1,5 +1,6 @@
 var http = require('http'),
-	fs = require('fs');
+	fs = require('fs'),
+	puerto = 4000;
 http.createServer(function(req, res) {
 	fs.readFile('./index.html', function(err, data) {
 		if (err) throw err;
