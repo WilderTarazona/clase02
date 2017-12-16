@@ -14,7 +14,7 @@ var manejador = function (req, res) {
 	console.log("Esta respuesta solo lo ve en el servidor");
 	res.write("Hola mundo_\n");
 	res.end();
-});
+};
 var servidor = http.createServer(manejador);
 servidor.listen(puerto);
 console.log("estamos escuchando", puerto);
